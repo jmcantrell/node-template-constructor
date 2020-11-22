@@ -1,0 +1,25 @@
+{
+  "name": "template-constructor",
+  "version": "1.0.0",
+  "description": "A generic class for rendering compiled (and uncompiled) template strings.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmcantrell/node-template-constructor.git"
+  },
+  "keywords": [],
+  "author": "Jeremy Cantrell <jmcantrell@gmail.com> (https://github.com/jmcantrell)",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/jmcantrell/node-template-constructor/issues"
+  },
+  "homepage": "https://github.com/jmcantrell/node-template-constructor#readme",
+  "devDependencies": {
+    "ava": "^3.13.0",
+    "eslint": "^7.14.0",
+    "prettier": "^2.2.0"
+  }
+}
