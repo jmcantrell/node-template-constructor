@@ -1,0 +1,6 @@
+.envrc
+.eslintrc.json
+.nvmrc
+.prettierignore
+.prettierrc.json
+node_modules
