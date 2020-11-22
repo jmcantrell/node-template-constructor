@@ -10,7 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/jmcantrell/node-template-constructor.git"
   },
-  "keywords": [],
+  "keywords": [
+  	  "template"
+  ],
   "author": "Jeremy Cantrell <jmcantrell@gmail.com> (https://github.com/jmcantrell)",
   "license": "Unlicense",
   "bugs": {
