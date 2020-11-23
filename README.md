@@ -90,7 +90,9 @@ console.log(greeting()); // outputs: "Hello, you!"
 
 ### Creating a template dialect
 
-Usage: `const template = new Template({ prefix, suffix });`
+```js
+const template = new Template({ prefix, suffix });
+```
 
 The template constructor takes one argument that's expected to be an
 object with two properties, `prefix` and `suffix`.
@@ -107,7 +109,9 @@ to look like `{whatever}`.
 
 ### Compiling a template string
 
-Usage: `const compiled = template.compile(string);`
+```js
+const compiled = template.compile(string);
+```
 
 Once a template dialect is created, the typical usage is compiling one
 or more template strings, and using those compiled templates to
@@ -120,7 +124,9 @@ object expected to contain placeholder values.
 
 ### Rendering a template string without compilation
 
-Usage: `const rendered = template.render(string, options);`
+```js
+const rendered = template.render(string, options);
+```
 
 If you're testing a template string or know that it will only be used
 once, you can render a string directly, skipping the compile step.
