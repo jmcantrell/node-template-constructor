@@ -1,6 +1,6 @@
 {
   "name": "template-constructor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A generic class for rendering compiled (and uncompiled) template strings.",
   "main": "index.js",
   "scripts": {
